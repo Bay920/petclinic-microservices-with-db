@@ -73,16 +73,17 @@
 
         </dependencies>
     </dependencyManagement>
-<distributionManagement>
+
+    <distributionManagement>
   <repository>
     <id>nexus</id>
     <name>maven-releases</name>
-    <url>http://172.31.31.220:8081/repository/maven-releases/</url>
+    <url>http://172.31.19.170:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
     <id>nexus</id>
     <name>maven-snapshots</name>
-    <url>http://172.31.31.220:8081/repository/maven-snapshots/</url>
+    <url>http://172.31.19.170:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 
